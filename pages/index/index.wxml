@@ -1,0 +1,12 @@
+<block wx:for="{{dataList}}" wx:key="item" wx:for-index="index" >
+ <view class='item-container' wx:if="{{item.basicCabinType=='Y' && item.CabinType=='Y' }}" >
+  <view >
+
+    <text>{{item.CabinType}}</text>
+
+    <text class='item-title'> {{item.basicCabinType}} </text>
+
+    <text class='item-time'> {{item.SinglePrice}} </text>
+  </view>
+ </view>
+</block>
