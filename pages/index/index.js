@@ -13,7 +13,6 @@ Page({
     var _this = this;
     wx.request({
       url: 'http://apis.haoservice.com/lifeservice/train/ypcx',
-      data: 'key=e2cb23d7b39348fbb3121d4ec6bba895&date=2019/1/1&from=南宁东&to=广州南&paybyvas=false',
       header: {
         'Content-Type': 'application/json'
       },
