@@ -10,4 +10,6 @@
   </view>
  </view>
 </block>
+
+
 <text>{{max}}</text>
